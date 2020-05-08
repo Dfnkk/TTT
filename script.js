@@ -95,7 +95,6 @@ const main = () => {
   }
 };
 
-let wl = true
-while (wl === true) {
-  main();
-}
+setInterval(function () {
+  main()
+}, 30)
