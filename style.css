@@ -1,0 +1,58 @@
+.box {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  margin: 0px;
+}
+
+.top-left {
+  position: relative;
+  top: 100px;
+}
+
+.top-middle {
+  position: relative;
+  top: 44px;
+  left: 62px;
+}
+
+.top-right {
+  position: relative;
+  bottom: 12px;
+  left: 124px;
+}
+
+
+
+.middle-left {
+  position: relative;
+}
+
+.middle-middle {
+  position: relative;
+  bottom: 56px;
+  left: 62px;
+}
+
+.middle-right {
+  position: relative;
+  bottom: 112px;
+  left: 124px;
+}
+
+.bottom-left {
+  position: relative;
+  bottom: 102px;
+}
+
+.bottom-middle {
+  position: relative;
+  bottom: 158px;
+  left: 62px;
+}
+
+.bottom-right {
+  position: relative;
+  bottom: 214px;
+  left: 124px;
+}
