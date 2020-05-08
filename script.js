@@ -97,4 +97,4 @@ const main = () => {
 
 setInterval(function () {
   main()
-}, 30)
+}, 10)
