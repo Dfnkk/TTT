@@ -43,12 +43,32 @@ sq9.onclick = () => {
   sq9.style.backgroundColor = 'red';
 } */
 
+
+// get squares
+
+let sq1 = document.querySelector('.top-left');
+let sq2 = document.querySelector('.top-middle');
+let sq3 = document.querySelector('.top-right');
+
+
+let sq4 = document.querySelector('.middle-left');
+let sq5 = document.querySelector('.middle-middle');
+let sq6 = document.querySelector('.middle-right');
+
+let sq7 = document.querySelector('.bottom-left');
+let sq8 = document.querySelector('.bottom-middle');
+let sq9 = document.querySelector('.bottom-right');
+
 let turnElement = document.getElementById('turn');
 alert('red is player 1,');
 alert('blue is player 2');
 
 turnElement.innerHTML = "Player 1's turn";
+let turn1;
+turn1 = true
 
 const main = () => {
-  
+  if (turn1 === true) {
+
+  }
 };
