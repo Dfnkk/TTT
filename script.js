@@ -1,11 +1,4 @@
-/* var doorImage1 = document.getElementById('door1');
-
-doorImage1.onclick = () => {
-    doorImage1.src = botDoorPath;
-}
-
-let botDoorPath = 'https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/robot.svg'; */
-
+/* 
 let sq1 = document.querySelector('.top-left');
 let sq2 = document.querySelector('.top-middle');
 let sq3 = document.querySelector('.top-right');
@@ -48,4 +41,14 @@ sq8.onclick = () => {
 }
 sq9.onclick = () => {
   sq9.style.backgroundColor = 'red';
-}
+} */
+
+let turnElement = document.getElementById('turn');
+alert('red is player 1,');
+alert('blue is player 2');
+
+turnElement.innerHTML = "Player 1's turn";
+
+const main = () => {
+  
+};
