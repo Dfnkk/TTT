@@ -36,12 +36,19 @@ let turn1;
 turn1 = true
 
 function changeTurn() {
-  if (turn1 === true) {
-    turn1 = false
+  if (clicked != false) {
+    if (turn1 === true) {
+      turn1 = false
+      turnElement.innerHTML = "Player 2's turn";
+      clicked = false;
+    } else {
+      turnElement.innerHTML = "Player 1's turn";
+      turn1 = true
+      clicked = false;
+    } 
   } else {
-    turn1 = true
+    alert('Please click a square')
   }
-  clicked = false;
 }
 
 const main = () => {
