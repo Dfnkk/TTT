@@ -29,6 +29,7 @@ function changeTurn() {
   } else {
     turn1 = true
   }
+  clicked = false;
 }
 
 const main = () => {
