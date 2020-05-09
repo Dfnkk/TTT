@@ -51,10 +51,26 @@ function changeTurn() {
   }
 }
 
-function checkWin(sq, ssqq, sqq, color) {
+function checkWinonSquare(sq, ssqq, sqq, color) {
   if (sq === color && ssqq === color && sqq === color) {
-    alert(color + ' Win!')
+    alert(color + ' Win!');
   }
+}
+
+function checkWin(color) {
+  // row check
+  checkWinonSquare(sq1C, sq2C, sq3C, color);
+  checkWinonSquare(sq4C, sq5C, sq6C, color);
+  checkWinonSquare(sq7C, sq8C, sq9C, color);
+
+  // col check
+  checkWinonSquare(sq1C, sq4C, sq7C, color);
+  checkWinonSquare(sq2C, sq5C, sq8C, color);
+  checkWinonSquare(sq3C,sq6C, sq9C, color);
+
+  // diga check
+  checkWinonSquare(sq1C, sq5C, sq9C, color);
+  checkWinonSquare(sq3C, sq5C, sq7C, color);
 }
 
 const main = () => {
@@ -227,6 +243,10 @@ const main = () => {
       }
     }
   }
+
+  /*checkWin('red');
+  checkWin('blue');*/
+
 };
 
 setInterval(function () {
