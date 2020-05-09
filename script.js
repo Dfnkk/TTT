@@ -51,6 +51,12 @@ function changeTurn() {
   }
 }
 
+function checkWin(sq, ssqq, sqq, color) {
+  if (sq === color && ssqq === color && sqq === color) {
+    alert(color + ' Win!')
+  }
+}
+
 const main = () => {
   if (turn1 === true) {
     sq1.onclick = () => {
