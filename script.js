@@ -1,5 +1,7 @@
 // get squares
 
+let clicked = false;
+
 let sq1 = document.querySelector('.top-left');
 let sq2 = document.querySelector('.top-middle');
 let sq3 = document.querySelector('.top-right');
@@ -32,65 +34,117 @@ function changeTurn() {
 const main = () => {
   if (turn1 === true) {
     sq1.onclick = () => {
-      sq1.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq1.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
     sq2.onclick = () => {
-      sq2.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq2.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
     sq3.onclick = () => {
-      sq3.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq3.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
-    
-    
     sq4.onclick = () => {
-      sq4.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq4.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
     sq5.onclick = () => {
-      sq5.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq5.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
     sq6.onclick = () => {
-      sq6.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq6.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
     
     sq7.onclick = () => {
-      sq7.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq7.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
     sq8.onclick = () => {
-      sq8.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq8.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
     sq9.onclick = () => {
-      sq9.style.backgroundColor = 'red';
+      if (clicked === false) {
+        sq9.style.backgroundColor = 'red';
+        clicked = true;
+      }
     }
   } else {
     sq1.onclick = () => {
-      sq1.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq1.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     sq2.onclick = () => {
-      sq2.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq2.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     sq3.onclick = () => {
-      sq3.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq3.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     
     
     sq4.onclick = () => {
-      sq4.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq4.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     sq5.onclick = () => {
-      sq5.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq5.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     sq6.onclick = () => {
-      sq6.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq6.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     
     sq7.onclick = () => {
-      sq7.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq7.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     sq8.onclick = () => {
-      sq8.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq8.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
     sq9.onclick = () => {
-      sq9.style.backgroundColor = 'blue';
+      if (clicked === false) {
+        sq9.style.backgroundColor = 'blue';
+        clicked = true;
+      }
     }
   }
 };
