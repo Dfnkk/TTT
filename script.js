@@ -15,6 +15,18 @@ let sq7 = document.querySelector('.bottom-left');
 let sq8 = document.querySelector('.bottom-middle');
 let sq9 = document.querySelector('.bottom-right');
 
+let sq1C = null;
+let sq2C = null;
+let sq3C = null;
+
+let sq4C = null;
+let sq5C = null;
+let sq6C = null;
+
+let sq7C = null;
+let sq8C = null;
+let sq9C = null;
+
 let turnElement = document.getElementById('turn');
 alert('red is player 1,');
 alert('blue is player 2');
