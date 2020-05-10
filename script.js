@@ -98,8 +98,8 @@ const main = () => {
         if (clicked === false) {
           sq3.style.backgroundColor = 'red';
           clicked = true;
+          sq3C = 'red';
         }
-        sq3C = 'red';
       }
     }
     sq4.onclick = () => {
@@ -107,8 +107,8 @@ const main = () => {
         if (clicked === false) {
           sq4.style.backgroundColor = 'red';
           clicked = true;
+          sq4C = 'red';
         }
-        sq4C = 'red';
       }
     }
     sq5.onclick = () => {
@@ -116,8 +116,8 @@ const main = () => {
         if (clicked === false) {
           sq5.style.backgroundColor = 'red';
           clicked = true;
+          sq5C = 'red';
         }
-        sq5C = 'red';
       }
     }
     sq6.onclick = () => {
@@ -125,8 +125,8 @@ const main = () => {
         if (clicked === false) {
           sq6.style.backgroundColor = 'red';
           clicked = true;
+          sq6C = 'red';
         }
-        sq6C = 'red';
       }
     }
     
@@ -135,8 +135,8 @@ const main = () => {
         if (clicked === false) {
           sq7.style.backgroundColor = 'red';
           clicked = true;
+          sq7C = 'red';
         }
-        sq7C = 'red';
       }
     }
     sq8.onclick = () => {
@@ -144,8 +144,8 @@ const main = () => {
         if (clicked === false) {
           sq8.style.backgroundColor = 'red';
           clicked = true;
+          sq8C = 'red';
         }
-        sq8C = 'red';
       }
     }
     sq9.onclick = () => {
@@ -153,8 +153,8 @@ const main = () => {
         if (clicked === false) {
           sq9.style.backgroundColor = 'red';
           clicked = true;
+          sq9C = 'red';
         }
-        sq9C = 'red';
       }
     }
   } else {
