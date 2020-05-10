@@ -80,8 +80,8 @@ const main = () => {
         if (clicked === false) {
           sq1.style.backgroundColor = 'red';
           clicked = true;
+          sq1C = 'red';
         }
-        sq1C = 'red';
       }
     }
     sq2.onclick = () => {
@@ -89,8 +89,8 @@ const main = () => {
         if (clicked === false) {
           sq2.style.backgroundColor = 'red';
           clicked = true;
+          sq1C = 'red';
         }
-        sq2C = 'red';
       }
     }
     sq3.onclick = () => {
