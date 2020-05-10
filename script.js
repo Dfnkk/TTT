@@ -57,7 +57,7 @@ function checkWinonSquare(sq, ssqq, sqq, color) {
   }
 }
 
-function checkWin(color) {
+function checkWincol(color) {
   // row check
   checkWinonSquare(sq1C, sq2C, sq3C, color);
   checkWinonSquare(sq4C, sq5C, sq6C, color);
@@ -73,6 +73,11 @@ function checkWin(color) {
   checkWinonSquare(sq3C, sq5C, sq7C, color);
 }
 
+function checkWin() {
+  checkWincol('red');
+  checkWincol('blue');
+}
+
 const main = () => {
   if (turn1 === true) {
     sq1.onclick = () => {
@@ -81,6 +86,7 @@ const main = () => {
           sq1.style.backgroundColor = 'red';
           clicked = true;
           sq1C = 'red';
+          checkWin(); 
         }
       }
     }
@@ -90,6 +96,7 @@ const main = () => {
           sq2.style.backgroundColor = 'red';
           clicked = true;
           sq1C = 'red';
+          checkWin();
         }
       }
     }
@@ -99,6 +106,7 @@ const main = () => {
           sq3.style.backgroundColor = 'red';
           clicked = true;
           sq3C = 'red';
+          checkWin();
         }
       }
     }
@@ -108,6 +116,7 @@ const main = () => {
           sq4.style.backgroundColor = 'red';
           clicked = true;
           sq4C = 'red';
+          checkWin();
         }
       }
     }
@@ -117,6 +126,7 @@ const main = () => {
           sq5.style.backgroundColor = 'red';
           clicked = true;
           sq5C = 'red';
+          checkWin();
         }
       }
     }
@@ -126,6 +136,7 @@ const main = () => {
           sq6.style.backgroundColor = 'red';
           clicked = true;
           sq6C = 'red';
+          checkWin();
         }
       }
     }
@@ -136,6 +147,7 @@ const main = () => {
           sq7.style.backgroundColor = 'red';
           clicked = true;
           sq7C = 'red';
+          checkWin();
         }
       }
     }
@@ -145,6 +157,7 @@ const main = () => {
           sq8.style.backgroundColor = 'red';
           clicked = true;
           sq8C = 'red';
+          checkWin();
         }
       }
     }
@@ -154,6 +167,7 @@ const main = () => {
           sq9.style.backgroundColor = 'red';
           clicked = true;
           sq9C = 'red';
+          checkWin();
         }
       }
     }
@@ -164,6 +178,7 @@ const main = () => {
           sq1.style.backgroundColor = 'blue';
           clicked = true;
           sq1C = 'blue';
+          checkWin();
         }
       }
     }
@@ -173,6 +188,7 @@ const main = () => {
           sq2.style.backgroundColor = 'blue';
           clicked = true;
           sq2C = 'blue';
+          checkWin();
         }
       }
     }
@@ -182,6 +198,7 @@ const main = () => {
           sq3.style.backgroundColor = 'blue';
           clicked = true;
           sq3C = 'blue';
+          checkWin();
         }
       }
     }
@@ -193,6 +210,7 @@ const main = () => {
           sq4.style.backgroundColor = 'blue';
           clicked = true;
           sq4C = 'blue';
+          checkWin();
         }
       }
     }
@@ -202,6 +220,7 @@ const main = () => {
           sq5.style.backgroundColor = 'blue';
           clicked = true;
           sq5C = 'blue';
+          checkWin();
         }
       }
     }
@@ -211,6 +230,7 @@ const main = () => {
           sq6.style.backgroundColor = 'blue';
           clicked = true;
           sq6C = 'blue';
+          checkWin();
         }
       }
     }
@@ -221,6 +241,7 @@ const main = () => {
           sq7.style.backgroundColor = 'blue';
           clicked = true;
           sq7C = 'blue';
+          checkWin();
         }
       }
     }
@@ -230,6 +251,7 @@ const main = () => {
           sq8.style.backgroundColor = 'blue';
           clicked = true;
           sq8C = 'blue';
+          checkWin();
         }
       }
     }
@@ -239,6 +261,7 @@ const main = () => {
           sq9.style.backgroundColor = 'blue';
           clicked = true;
           sq9C = 'blue';
+          checkWin();
         }
       }
     }
