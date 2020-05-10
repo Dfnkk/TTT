@@ -86,7 +86,8 @@ const main = () => {
           sq1.style.backgroundColor = 'red';
           clicked = true;
           sq1C = 'red';
-          checkWin(); 
+          checkWin();
+          changeTurn() 
         }
       }
     }
@@ -97,6 +98,7 @@ const main = () => {
           clicked = true;
           sq1C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -107,6 +109,7 @@ const main = () => {
           clicked = true;
           sq3C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -117,6 +120,7 @@ const main = () => {
           clicked = true;
           sq4C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -127,6 +131,7 @@ const main = () => {
           clicked = true;
           sq5C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -137,6 +142,7 @@ const main = () => {
           clicked = true;
           sq6C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -148,6 +154,7 @@ const main = () => {
           clicked = true;
           sq7C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -158,6 +165,7 @@ const main = () => {
           clicked = true;
           sq8C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -168,6 +176,7 @@ const main = () => {
           clicked = true;
           sq9C = 'red';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -179,6 +188,7 @@ const main = () => {
           clicked = true;
           sq1C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -189,6 +199,7 @@ const main = () => {
           clicked = true;
           sq2C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -199,6 +210,7 @@ const main = () => {
           clicked = true;
           sq3C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -211,6 +223,7 @@ const main = () => {
           clicked = true;
           sq4C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -221,6 +234,7 @@ const main = () => {
           clicked = true;
           sq5C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -231,6 +245,7 @@ const main = () => {
           clicked = true;
           sq6C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -242,6 +257,7 @@ const main = () => {
           clicked = true;
           sq7C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -252,6 +268,7 @@ const main = () => {
           clicked = true;
           sq8C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
@@ -262,6 +279,7 @@ const main = () => {
           clicked = true;
           sq9C = 'blue';
           checkWin();
+          changeTurn()
         }
       }
     }
