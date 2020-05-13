@@ -293,3 +293,5 @@ const main = () => {
 setInterval(function () {
   main()
 }, 10)
+
+// you can also use getEventListner (not spelled correctly)
